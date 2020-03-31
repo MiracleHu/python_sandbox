@@ -3,15 +3,17 @@
 # Core modules
 import datetime
 from datetime import date
+
 import time
 from time import time
 
 # Pip module
 from camelcase import CamelCase
 
-# Import custom module
-import validator
-from validator import validate_email
+# Import custom module: useful_tools.py
+import useful_tools
+# your can call validate_email by useful_tools.validate_email()
+from useful_tools import validate_email
 
 # today = datetime.date.today()
 today = date.today()
